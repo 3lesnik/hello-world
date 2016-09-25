@@ -1,4 +1,4 @@
-# hello-world
-Another repository
+### Read Me If You Want
 
-I'm 3lesnik. It's 3:26 AM
+  Здесь будут храниться программы, написанные мной в ходе обучения языку C.
+  
