@@ -1,0 +1,60 @@
+       if (fabs(a)<(h)) {
+                printf("%d   %f   ****\n", i,  a);
+        } else {#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int i = 1;
+    float y, h, a, b;
+    scanf("%f%f%f", &a, &b, &h);
+    while (a <= b) {
+
+        if (a == 0) {
+                printf("%d   %f   ****\n", i,  a);
+        } else {
+         printf("%d   %f   %f\n", i,  a, 1/(2*a));
+        }
+            i+++;
+            while(fabs(a-b)>e); {
+
+            }
+
+
+            a = a + h;
+
+
+    }
+    return 0;
+}
+
+
+// f (...
+ //a == b (everything is fine)
+
+//a = a + h;
+//a != a + h, tak kak  problemy tochnosti компьютерных вычислений
+
+//RESHENIE
+//modul(a-b)<E, где Е погрешность
+//
+         printf("%d   %f   %f\n", i,  a, 1/(2*a));
+        }
+            i++;
+            a = a + h;
+
+
+    }
+    return 0;
+}
+
+
+// f (...
+ //a == b (everything is fine)
+
+//a = a + h;
+//a != a + h, tak kak  problemy tochnosti компьютерных вычислений
+
+//RESHENIE
+//modul(a-b)<E, где Е погрешность
+//
