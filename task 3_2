@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    int n, x, y, a, b, c, i;
+    scanf ("%d%d%d%d", &a, &b, &c, &n);
+    printf ("\n1 %8d\n2 %8d\n3 %8d\n", a, b, c);
+    for (i = 4; i <= n; i++)
+      {
+        x =  a + c;
+        printf("%d %8d \n", i, x);
+        a = b;
+        b = c;
+        c = x;
+      }
+    return 0;
+}
