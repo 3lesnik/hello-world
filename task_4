@@ -1,0 +1,11 @@
+program p;
+var k, a, n: integer; 
+  begin
+     readln (k, n);
+     
+     a:= ((n-1) mod 7);
+     a:= (k + a);
+     writeln ((a-1)mod 7 + 1); 
+     
+
+  end.
