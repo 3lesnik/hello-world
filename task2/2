@@ -1,0 +1,45 @@
+
+/* 
+ * File:   main.c
+ * Author: trilesnik
+ *
+ * Created on September 30, 2016, 9:27 PM
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+/*
+ * Даны числа x, y. Проверить истинность высказывания:
+ * «Точка с координатами (x, y) лежит в заштрихованной области»
+ * 
+ */
+
+int main ()
+{
+   float  x, y, y0, b;
+   int task;
+   scanf ("%d", &task);
+   scanf ("%f%f", &x, &y);
+   if (task == 1) {
+       
+        if ( (fabs(x)+fabs(y)>= 2) && ( fabs(x) <= 2 && fabs(y) <= 2) )
+    {
+        printf (" True. Now i belive you... ");
+    }
+        else 
+        {
+            printf("You\'ve lied to me...");
+        } 
+                    }
+   else {
+       if (( x*x + y*y < 4 || (x>0 && y>0)) || fabs(x) > 2 || fabs(y) > 2 )
+       {
+           printf ("You\'ve lied to me...");
+       }
+       else {
+           printf (" True. Now i belive you... ");
+       }
+        }
+}
