@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+
+int main ()
+{
+   float  number, x;
+   scanf ("%f", &number);
+   if (number < 0) {
+    printf("Ha. Game Over. Try again.");
+   }
+        else {
+            x = 1;
+            number = x % 2;
+            number = number / 1;
+            x = x - 2*number;
+            printf("f(x)= %d", &x);
+        }
+return (0);
+}
